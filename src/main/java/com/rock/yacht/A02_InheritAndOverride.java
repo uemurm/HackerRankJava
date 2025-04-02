@@ -1,4 +1,4 @@
-package main.java.com.rock.yacht;
+package com.rock.yacht;
 
 public class A02_InheritAndOverride {
     public static void main(String[] args) {
