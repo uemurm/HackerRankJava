@@ -1,6 +1,5 @@
 package com.rock.yacht;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class A10_SubArray {
