@@ -2,7 +2,6 @@ package com.rock.yacht.techbeamers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 // Write code to sort the list of strings without using Java collection.
