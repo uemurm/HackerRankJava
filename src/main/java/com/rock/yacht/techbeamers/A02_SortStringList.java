@@ -14,14 +14,12 @@ public class A02_SortStringList {
         System.out.println("---- Input List ----");
         showList(inputList);
 
-        Arrays.sort(inputList);
-
         System.out.println("---- Sorted List in case-sensitive ----");
+        Arrays.sort(inputList);
         showList(inputList);
 
-        Arrays.sort(inputList, String.CASE_INSENSITIVE_ORDER);
-
         System.out.println("---- Sorted List in case-insensitive ----");
+        Arrays.sort(inputList, String.CASE_INSENSITIVE_ORDER);
         showList(inputList);
     }
 
