@@ -30,6 +30,7 @@ public class A01_FindDuplicatesInArray {
         // Set はインターフェースであるのに対して、HashSet はそれを実装したものの一つ。
         // TreeSet や LinkedHashSet などの実装を使って問題を解くこともできるが、HashSet が速く動作する。
         // HashSet でも良さそうだが Set に代入したのは、Set ならどんな実装でも問題は解決できるため、抽象化した。
+        // これはデザイン・パターンのひとつ、ポリモーフィズムを活用している。
         Set<String> resultSet = new HashSet<>();
         Set<String> tmpSet = new HashSet<>();
 
